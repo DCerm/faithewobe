@@ -1,0 +1,125 @@
+.menu{
+  position:sticky; 
+  z-index:999;
+  background:transparent;
+  top:0;
+}
+.top {top:0}
+.menuContainer {
+  display: flex;
+  flex-direction:row;
+  margin-bottom:10px;
+  transition: 1s ease;
+  padding:0px 50px;
+  background: transparent;
+  align-items: center;
+}
+.logo {
+  width:20%;
+  text-align: center;
+}
+.text {
+  font-family:Montserrat;
+  letter-spacing:1px;
+  font-size:30px;
+  font-weight:300;
+  fill:var(--tx-color);
+}
+.menuItemsWrapper {
+  width:40%;
+}
+.menuItems {
+  display: flex;
+  flex-direction:row;
+  list-style-type:none;
+}
+.menuItems a {
+  text-decoration:none;
+  padding: 12px 20px;
+  margin:0 10px;
+  color:var(--tx-color);
+  font-family:Montserrat;
+  font-size:15px;
+}
+.menuItems a:active, .menuItem a:hover {
+  color:#ff0000;
+  border-bottom:3px solid #f00; 
+}
+.bottomContainer {
+  display:flex;
+  grid-gap:50px;
+  justify-content:center;
+  padding-bottom:10px;
+  font-size:14px;
+  font-family:Montserrat;
+  font-weight:300;
+}
+.bottomContainer a {
+  text-decoration:none;
+  color:var(--tx-color);
+}
+.bottomContainer a:hover {
+  color:#ff0000;
+}
+.menuItem {
+}
+.right {justify-content:right}
+.left {justify-content:left}
+.borderBottom {border-bottom:1px solid #ffffff20 }
+.menuButton {
+  font-family:Montserrat;
+  font-size:15px;
+  border:1px solid #f00;
+  border-radius: 5px;
+  background: transparent;
+  color:#fff;
+  padding:5px 10px;
+}
+.menuButton:hover {
+  background: #f00;
+  cursor:pointer;
+}
+
+
+
+@media screen and (max-width:1000px) {
+  .menu, #mtopmost{
+    position:fixed; 
+    z-index:999;
+    background:transparent;
+    top:0;
+    padding:0px 40px 0 0px;
+  }
+  .menuContainer {
+    margin-bottom:10px;
+    width:95vw;
+  }
+  .menuItemsWrapper {width:30%;}
+  .MenuRightContact {width:40%;}
+  .logo {width:30%;}
+  .mtoggle {
+    background-color: transparent;
+    color:#fff;
+    font-size: 40px;
+  }
+  mtoggle:hover, .mtoggle:active {
+    color:#f00;
+  }
+  .mmenu {
+    font-family: Montserrat;
+    font-weight: 300;
+    width:100%;
+    background-color: #292929;
+    padding:30px 0 40px 0;
+    position:absolute;
+    translate: 100%;
+  }
+  .mmenu.open {
+    translate:0;
+    transition: 0.2s ease-in-out;
+    position:relative;
+  }
+
+  .text {font-size:30px; font-weight:500;}
+
+}

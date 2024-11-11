@@ -1,0 +1,98 @@
+:root {
+  
+}
+.FaithSection {
+  margin-top:-95vh;
+  position:relative;
+  background: transparent;
+}
+.Faith {
+  width:350px;
+  height:auto;
+  border-radius:40%;
+  z-index: 10;
+}
+.card {padding:50px 20px; background:#333; border-radius: 10px;}
+.card h4 {
+  font-family:CatchyMager;
+  font-weight:300;
+  font-size:30px;
+}
+.card p {
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size:17px;
+  line-height:25px;
+}
+.card:hover {
+  background:#3f3f3f;
+  transition:0.3s ease-in-out;
+}
+
+/* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */
+.testimonialBox {
+  border:3px solid #a3a3a3;
+  border-radius: 20px;
+  padding: 50px 20px;
+  background:#222;
+  margin-top: -63%;
+  z-index: 10;
+  position:relative;
+}
+.testimonialImage {
+  height:200px;
+  width: 200px;
+}
+.testimonialGiverName {
+  font-family:Catchy Mager;
+  font-size: 15px;
+}
+.testimonialGiverTitle {
+  font-size:12px;
+}
+.testimonialTitle {
+  font-size: 25px;
+}
+.testimonialText {
+  font-size:17px;
+  line-height: 25px;
+}
+
+
+@media screen and (max-width:1000px) {
+  
+  
+  .Faith {
+    margin-top:0vh;
+    width:250px;
+    height:auto;
+    justify-self: center;
+  }
+
+
+  /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */
+  .testimonialBox {
+    padding: 30px 20px;
+    margin-top: -81vh;
+  }
+  .testimonialImage {
+    height:120px;
+    width: 120px;
+  }
+  .testimonialGiverName {
+    font-family:Catchy Mager;
+    font-size: 20px;
+  }
+  .testimonialGiverTitle {
+    font-size:15px;
+  }
+  .testimonialTitle {
+    font-size: 21px;
+  }
+  .testimonialText {
+    font-size:18px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width:650px) {
+}

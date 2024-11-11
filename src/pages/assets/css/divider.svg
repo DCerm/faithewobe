@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="200" width="1440" class="slogo" fill="none">
+
+  <!-- Main Background -->
+  <rect height="200" rx="5" ry="5" width="1440" fill="transparent" />
+
+  <g style="transform:translateX(0px) translateY(0px)">
+    <g style="scale:1;">
+
+      <!-- Rects -->
+      <polygon points="1440,0 1440,100 0,100" fill="#222"  />
+      <polygon points="0,100 1440,100 0,200" fill="#f00"  />
+      <polygon points="0,200 1440,100 1440,210" fill="#222"  />
+
+      
+    </g>
+  </g>
+</svg>

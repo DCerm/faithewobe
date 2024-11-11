@@ -1,0 +1,73 @@
+.form {
+  width: 90%;
+  padding:50px 20px;
+  box-shadow: 1px 0.5px 5px var(--Bite-blue);
+  border-radius: 50px;
+}
+label {
+  font-family:Montserrat;
+  font-size:18px;
+}
+select, textarea, input:not([type=radio],[type=submit],[type=checkbox]) {
+  height:20px;
+  padding:10px;
+  margin:10px 0;
+  width:97%;
+  font-family:Montserrat;
+  font-size:15px;
+  background:#ffffff22;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+select, textarea, input:not([type=submit]) {color:var(--tx-color)}
+select {height:40px; border-radius:0; color:;}
+option {
+  font-family:Montserrat;
+  font-size:15px;
+}
+input:focus, input:active, select:focus {
+  background-color:#ff000003;
+  border:1px solid #f00;
+}
+.submit {
+  background-color:#f00;
+  height:50px;
+  width:100%;
+  margin-top:20px;
+  color:var(--tx-color);
+  font-family:Catchy Mager;
+  font-size:20px;
+  cursor:pointer;
+  border-radius:5px;
+}
+.submit:hover {
+  border: 2px solid #f00;
+  background: transparent;
+  color:#f00;
+  transition:0.2s ease-in-out;
+}
+.flex {display:flex; grid-gap: 20px; flex-direction:row; padding-bottom:20px;} 
+.columns50 {width:48%} .columns100 {width:100%}
+.spacer50{padding-top:50px} .spacer20{padding-top:20px}
+.divider {border-top:1px solid #999;padding-bottom:20px;}
+/*Sweet Alert*/
+
+
+
+@media screen and (max-width:700px) {
+.flex {flex-direction:column; grid-gap: 10px; padding-bottom:10px;}
+.columns50, .columns100 {width:98%}
+.form {
+  width: 95%;
+  padding:20px 10px;
+  box-shadow: 1px 0.5px 5px var(--Bite-blue);
+  border-radius: 20px;
+}
+legend {
+  font-size:25px;
+  padding:0 10px;
+}
+label {font-size:18px;}
+}
+.spacer50{padding-top:20px}
+.mspacer{padding-top:50px}

@@ -1,0 +1,19 @@
+.myAlert .swal2-title {
+  font-family:Catchy Mager;
+  color:var(--tx-color); /* Replace with your font color */
+}
+
+#swal2-html-container {
+  font-family: Montserrat;
+  color:var(--tx-color); /* Replace with your font color */
+}
+
+.myAlert .swal2-confirm {
+  background-color: #f00; /* Replace with your button color */
+  color: #fff; /* Replace with your button text color */
+}
+
+.swal2-popup {
+  background-color:#333; /* Replace with your background color */
+}
+/*swal2-popup swal2-modal myAlert swal2-icon-success swal2-show*/

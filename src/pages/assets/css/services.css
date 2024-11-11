@@ -1,0 +1,27 @@
+.serviceCard {
+  
+}
+.serviceTitle {
+  font-size:30px;
+  font-family: Catchy Mager;
+}
+.pg-hero {
+  height:90vh;
+  background:url('./hero-bg.svg');
+}
+.serviceImg {
+  height: ;
+  width:100%;
+}
+@media screen and (max-width: 1000px) {
+  .serviceCard {
+    height: auto;
+  }
+  .serviceTitle {
+    font-size:25px;
+  }
+  .pg-hero {
+    height:90vh;
+    padding:40% 20px 0;
+  }
+}
