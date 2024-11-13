@@ -176,7 +176,7 @@ function Home() {
             <div className="p20 r10 darkBg w50">
             <img src={minute} alt="" className="portImg" />
               <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
-                calender and email management <MdOutlineArrowOutward className="down rh45" /></h4>
+                minute taking and survey administration <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
           </div>
