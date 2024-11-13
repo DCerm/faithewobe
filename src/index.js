@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom/client';
 import { useEffect } from 'react';
 import { useLocation, BrowserRouter as Router, Routes, Route, Outlet, NavLink } from "react-router-dom";
 import Loader from './loader.js';
+import MainMenu from './mainMenu.js';
 import './assets/css/faith.css';
 import Home from './pages/home.js';
 import Services from './pages/services.js';
+import Exp from './pages/experience.js';
 import ServiceIndex from './pages/servicesIndex.js';
 import Footer from './footer.js';
 
@@ -27,13 +29,15 @@ function Content() {
       <ScrollToTop />
       <div className="appScreen">
 
-
+        <MainMenu />
+        
         <div className="actual">
 
 
           <Routes>
             <Route path="/" element={<Home />} ></Route>
             <Route path="/home" element={<Home />} ></Route>
+            <Route path="/work-experience" element={<Exp />} />
             <Route path="/services" element={<Services />} >
               <Route index element={<ServiceIndex />} />
               
@@ -43,6 +47,7 @@ function Content() {
           {/*close actual app screen*/}
         </div>
 
+        <Footer />
 
       </div>
     </Router>

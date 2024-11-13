@@ -6,44 +6,34 @@
 }
 .top {top:0}
 .menuContainer {
-  display: flex;
-  flex-direction:row;
-  margin-bottom:10px;
-  transition: 1s ease;
-  padding:0px 50px;
-  background: transparent;
-  align-items: center;
+  padding:10px 100px;
+  border-bottom: 0px solid #2c2827;
 }
 .logo {
-  width:20%;
-  text-align: center;
+  font-family: Catchy Mager;
+  font-size: 40px;
+  border:2px solid white;
+  padding:0 5px;
+  height:40px;
+  margin-right:50px;
 }
-.text {
-  font-family:Montserrat;
-  letter-spacing:1px;
-  font-size:30px;
-  font-weight:300;
-  fill:var(--tx-color);
-}
-.menuItemsWrapper {
-  width:40%;
-}
-.menuItems {
-  display: flex;
-  flex-direction:row;
-  list-style-type:none;
+
+
+.menuItems{ 
+  list-style-type: none;
+  font-family: Montserrat; 
 }
 .menuItems a {
   text-decoration:none;
-  padding: 12px 20px;
-  margin:0 10px;
+  margin:0 20px;
   color:var(--tx-color);
   font-family:Montserrat;
   font-size:15px;
 }
-.menuItems a:active, .menuItem a:hover {
-  color:#ff0000;
-  border-bottom:3px solid #f00; 
+
+.menuseparator {
+  font-family: Catchy Mager;
+  font-size:40px;
 }
 .bottomContainer {
   display:flex;
@@ -91,12 +81,20 @@
     padding:0px 40px 0 0px;
   }
   .menuContainer {
-    margin-bottom:10px;
+    padding:0 10px;
     width:95vw;
   }
-  .menuItemsWrapper {width:30%;}
-  .MenuRightContact {width:40%;}
-  .logo {width:30%;}
+  .menuItem {
+    list-style-type: none;
+  }
+  .logo {
+    font-size: 30px;
+    height:30px;
+    display:block;
+    padding:0 5px;
+    margin-right: 0;
+    width:fit-content;
+  }
   .mtoggle {
     background-color: transparent;
     color:#fff;

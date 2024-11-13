@@ -1,43 +1,28 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { MdOutlinePhonelink, MdOutlineQueryStats, MdOutlineCall, MdOutlineForum, MdOutlineMarkAsUnread, MdOutlineRadar} from "react-icons/md";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 function Footer() {
   const footer = (
   <>
-    <div className=" borderTop " style={{backgroundColor:"#202020"}}>
-    <section className="columns footerGrid pt0 pb0">
-        <div className="columns3 right" style={{paddingTop:"5px"}}>
-            <div className="columns grid50 social mcolumns mcenter">
-              <Link to="https://www.facebook.com/theleadmanafrica/"><FaFacebook/></Link> 
-              <Link to="https://www.instagram.com/theleadmanafrica/"><FaInstagram/></Link> 
-              <Link to="https://www.linkedin.com/company/the-leadman-africa"><FaLinkedin/></Link>
-           </div>
-        </div>
-        <div className="columns3 center">
-           <p className="footerP">
-               © 2021 - 2024 TheLeadman Africa
-           </p>
-        </div>
-        <div className="columns3 right">
-            <div className="columns mcolumns grid20 alignright mcenter wt200">
-                <Link to="/about-us" className="footerSmP">
-                   About Us
-                </Link>
+      <div className="creamBg topmost columns menuContainer spaceBetween">
+         <div className="w70 columns mHide">
+            <ul className="menuItems columns wt400">
+            <Link to=""><li className="menuItem">about me</li></Link>
+            <li className="menuseparator down">·</li>
+            <Link to=""><li className="menuItem">services</li></Link>
+            <li className="menuseparator down">•</li>
+            <Link to="/work-experience"><li className="menuItem">work experience</li></Link>
+            <li className="menuseparator down">·</li>
+            <Link to=""><li className="menuItem">education</li></Link>
+            </ul>
+         </div>
 
-                <Link to="/services" className="footerSmP">
-                   Services
-                </Link>
-                <Link to="privacy-policy" className="footerSmP">
-                   Privacy Policy
-                </Link>
-                <div className="mspacer"></div>
-            </div>
-        </div>
-    </section>
-    </div>
-  </>
+         <div className=" right">
+            <Link to="mailto:ewobefaith@gmail.com" className="white mont wt200 columns mcolumns pv10 grid10 bigText"><span>ewobefaith@gmail.com </span><MdOutlineArrowOutward className="bigText wt100 rh45"/></Link>
+         </div>
+      </div>
+   </>
   );
   
 return footer;

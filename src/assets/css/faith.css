@@ -22,7 +22,8 @@
 body {
   overflow-x:hidden;
 }
-.sticky {position: sticky; top:0; position:relative;}
+.sticky {position: sticky; top:0;}
+.psticky {position:sticky; top:80px;}
 .appScreen {
   width:100%;
   background-color:var(--bg-pg);
@@ -57,16 +58,19 @@ section {padding:100px 100px;}
   border:2px solid #ff0000;
   transition:0.5s ease;
 }
-
-p {
+p, .fp {
   font-family:Montserrat;
   font-size:17px;
   font-weight: 300;
   line-height:40px;
   letter-spacing:1.5px;
 }
+.fp {line-height: 20px;}
+.f100 {font-size:100px;}
 a {text-decoration: none; color:#0f0; cursor:pointer;}
-a:hover, a:active {color:#ff0; text-decoration: underline;}
+a:hover {color:#0f0; text-decoration:;}
+a:hover .rh45 {transform:rotate(45deg); transition: 0.1s ease-out;}
+a:hover .rh5 {transform:rotate(-5deg); transition: 0.1s ease-out;}
 .bigHeading {
   font-size: 40px;
   padding:20px 0;
@@ -75,6 +79,7 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
 }
 .bigText {font-size: 25px;}
 .mspacer {padding-top:0px;}
+.down {margin-bottom: -3px;}
 .scrollingTextBg {
   font-size:220px; 
   font-family:Catchy Mager; 
@@ -87,6 +92,9 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
   font-weight:900;
   font-size:50px;
 }
+
+
+
 /*Animations*/
 .spin { 
   animation:fa-spin 3s ease infinite;
@@ -141,13 +149,12 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
   flex-direction:column;
   align-items:center;
 }
-.sticky {position:sticky}
 .grid{display:grid} .grid10 {grid-gap:10px;} .grid20 {grid-gap:20px;} .grid50 {grid-gap:50px;}.grid100 {grid-gap:100px;}
 .gridBox{border-radius:10px; padding:20px;} .gridBox:hover{background-color:; box-shadow:2px solid #333}
-.columns50{width: 50%;} .columns3{width:33.3%;} .columns60{width:60%} .columns70{width:70%} .columns30{width:30%} .columns40{width:40%} 
-.columns25{width:25%} .columns100{width:100%} .columns80{width:80%} .columns20{width:20%}
+.w50{width: 50%;} .w3{width:33.3%;} .w60{width:60%} .w70{width:70%} .w30{width:30%} .w40{width:40%} 
+.w25{width:25%} .w100{width:100%} .w80{width:80%} .w20{width:20%} .w10{width:10%}
 .pad {padding-left:10%; padding-right: 10%;}
-.h100 {height:100vh;} .h90 {height:90vh;} .h80 {height:80vh;} 
+.h100 {height:100vh;} .h90 {height:90vh;} .h80 {height:80vh;} .h50 {height:50vh;} 
 .smHeading {
   font-family:Catchy Mager;
   font-size:25px;
@@ -155,17 +162,18 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
 }
 .boldHeader {
   font-family:Catchy Mager;
-  font-size:65px;
+  font-size:100px;
   font-weight:500;
   letter-spacing: 2px;
 }
 .border {
-  border-top: 1px solid var(--bg-pg);
-  border-bottom: 1px solid var(--bg-pg);
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
 }
 .borderTop {border-top: 1px solid #999}
-.tag {background-color: #f00; padding:5px 15px 7px; border-radius: 5px; font-family: Catchy Mager;}
-.uppercase {text-transform: uppercase;}
+.tag {background-color: #6A5950; padding:7px 15px 5px; border-radius: 10px; font-family: Catchy Mager;}
+.uppercase {text-transform: uppercase;} .capitalize {text-transform: capitalize;}
+
 
 /*Backgrounds*/
 .gradientBg {
@@ -178,11 +186,14 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
 
 /*Paddings*/
 .padLeft50 {padding-left:50px;}
-.centralHero {padding:0 15%}
-.pt0 {padding-top: 0;} .pb0 {padding-bottom: 0;} .p10 {padding:10px} .p20 {padding:20px;}
+.pr50 {padding-right: 50px;} .pr30p {padding-right: 30%;}
+.pt0 {padding-top: 0;} .pb0 {padding-bottom: 0;} .p10 {padding:10px} .p20 {padding:20px;} 
+.pv5{padding:5px 0;} .pv20{padding:20px 0;} .pv10{padding:10px 0;} .pv50{padding:50px 0;} .ph20{padding:0 20px;}
 .m0 {margin:0}
 
 /*Font Weights*/
+.mont {font-family: Montserrat;}
+.cat {font-family: Catchy Mager;}
 .wt100 {font-weight: 100;} .wt200 {font-weight: 200;} .wt300 {font-weight: 300;} .wt400 {font-weight: 400;}
 .wt500 {font-weight: 500;} .wt600 {font-weight: 600;} .wt700 {font-weight: 700;} .wt800 {font-weight: 800;}
 .wt900 {font-weight: 900;}
@@ -196,12 +207,12 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
 .round {border-radius: 50%;}
 
 /*colors*/
-.black {color:#000} .white{color:#fff} .grey {color: #ddd}
-.creamBg{background-color:#6a5950;} .darkBg{background-color:#2c2827;}
+.black {color:#000} .white{color:#fff} .grey {color: #ddd} .cream{color:#6a5950;}
+.creamBg{background-color:#6a5950;} .darkBg{background-color:#2c2827;} 
+.lightBg{background-color: #d8d0c1;}
 
 
 /*Footer*/
-
 .footerSmP {font-size:14px; line-height:20px; font-family:Montserrat;}
 .footerIcons {font-size:30px; color:#8093f1;}
 .social {font-size:25px; color:var(--tx-color);}
@@ -212,14 +223,14 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
     margin-left:0;
     width:100%;
     max-width:100%;
-    overflow-y:scroll;
+    overflow-y:;
     display:block;
     justify-content:center;
     padding:50px 0 0 0;
   }
-  .actual {max-width:99vw; overflow-y:scroll; height:auto; overflow-x: hidden;}
+  .actual {max-width:99vw; overflow-y:; height:auto; overflow-x: hidden;}
   section {padding:50px 20px;}
-  .columns {flex-direction:column;}
+  .w {flex-direction:column;}
   .slider {animation: slide 20s linear infinite;justify-content:flex-start;}
   .bigHeading {
     font-size:25px;
@@ -227,10 +238,10 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
     font-family: Catchy Mager;
     font-weight:500;
   }
-  .bigText {font-size: 15px;}
-  .appScreen h2, h3 {font-size:25px}
+  .bigText {font-size: 22px;}
+  .appScreen h2, h3 {font-size:30px}
   .boldHeader {
-    font-size:25px;
+    font-size:60px;
     font-weight:500;
     padding: 0;
     text-align:left;
@@ -244,6 +255,7 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
     font-size:18px;
     line-height:30px;
   }
+  .mf50 {font-size:50px}
   .scrollingTextBg {
     font-size:70px; 
     margin-bottom: -60px;
@@ -263,16 +275,20 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
   .mfullHeight {height:92vh}
   .pad {padding:10px;}
   .reverse {flex-direction:column-reverse;}
-  .mnopad {padding:0;} .dHide {display:block} .dHideFl {display:flex} .mHide {display:none;} .mcolumns{display:flex; flex-direction:row;grid-gap:40px; margin:0;}
+  .mnopad {padding:0;} .dHide {display:inline-block} .dHideFl {display:flex} .mHide {display:none;} 
   .mcenter {text-align:center; justify-content:center;} .mleft {text-align:left; justify-content:left;} .mspacer {padding-top:20px;}
+  .mstart {align-items: flex-start;} .mflcenter {align-items: center;}
   /*Columns*/
-  .columns50, .columns3, .columns60, .columns70, .columns30, .columns40, 
-  .columns25, .columns100{width:100%}
+  .columns {flex-direction: column;}
+  .mcolumns{display:flex; flex-direction:row;grid-gap:40px; margin:0;}
+  .w50, .w3, .w60, .w70, .w30, .w40, .w25, .w20, .w100, .w80 {width:100%}
+  .mh100 {height: 100vh;} .mw100 {width:100%} .mw90 {width:90%}
   .grid50, .grid100 {grid-gap:20px;} .grid20 {grid-gap:10px}
 
   /*Paddings*/
   .padLeft50 {padding-left:0px;}
   .centralHero {padding:0 5%}
+  .mpt0 {padding-top: 0!important;} .mpb0 {padding-bottom:0!important;}
 
   /*Spacers*/
   .spacer50 {padding-top:20px} .spacer20 {padding-top:20px} .spacer30 {padding-top:20px} .spacer100 {padding-top:20px}
@@ -293,5 +309,5 @@ a:hover, a:active {color:#ff0; text-decoration: underline;}
 }
 }
 @media screen and (max-width:700px) {
-  section {padding:30px 10px}
+  section {padding:50px 20px}
 }

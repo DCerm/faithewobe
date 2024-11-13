@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import './assets/css/mainMenu.module.css';
-import { MdMail, MdOutlineClose, MdOutlineLocationOn, MdOutlineMenu, MdOutlineMenuBook, MdOutlineMenuOpen, MdPhone } from 'react-icons/md';
+import './assets/css/mainMenu.css';
+import { MdOutlineArrowOutward, MdOutlineClose, MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
 
 function MainMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,56 +16,49 @@ function MainMenu() {
   
   const menu = (
     <>
-      <div className="menu mHide topmost" id="topmost">
-        <div className="menuContainer orderBottom" >
-          <div className="menuItemsWrapper">
-            <ul className="menuItems right">
-              <li className="menuItem"><Link to='/about-us'>About Us</Link></li>
-              <li className="menuItem"><Link to='/services'>Our Services</Link></li>
-            </ul>
-          </div>
-          <div className="logo">
-            <Link to='/' style={{cursor:'pointer'}}>
-              <div className="blogo"> 
-                <img alt="theleadman logo" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1708076254/IMG_0186-removebg-preview.png" height="50" id="#logo" />
-              </div>  
-            </Link>
-          </div>
-          
-          <div className="menuItemsWrapper">
-            <ul className="menuItems left vcenter'">
-              <li className="menuItem"><Link to='/home'>Portfolio</Link></li>
-              <li className=""><Link to='/contact-us'><button className="menuButton">Help Me Get Better</button></Link></li>
-            </ul>
-          </div>
+      <div className="menu mHide topmost columns menuContainer spaceBetween" id="topmost">
+        <div className="w70 columns">
+          <Link to="/" className="logo">
+            <span className="white">fe</span>
+          </Link>
+
+          <ul className="menuItems columns wt400">
+            <Link to=""><li className="menuItem">about me</li></Link>
+            <li className="menuseparator down">·</li>
+            <Link to=""><li className="menuItem">services</li></Link>
+            <li className="menuseparator down">•</li>
+            <Link to="/work-experience"><li className="menuItem">work experience</li></Link>
+            <li className="menuseparator down">·</li>
+            <Link to=""><li className="menuItem">education</li></Link>
+          </ul>
         </div>
-        <div className="bottomContainer borderBottom">
-          <span><MdOutlineLocationOn /> 10, Olaleke Taiwo Street, Ikeja, lagos.</span>
-          <Link to="tel:234703904100"><MdPhone /> +234703904100</Link>
-          <Link to="mailto:info@theleadman.org"><MdMail /> info@theleadman.org</Link>
+
+        <div className=" right">
+          <Link to="" className="white mont wt500 columns grid10"><span>book a call </span><MdOutlineArrowOutward className="bigText wt100 rh45"/></Link>
         </div>
       </div>
 
       
-      <div className="menu dHide topmost columns100" id="mtopmost">
-        <div className="mcolumns spaceBetween borderBottom  menuContainer vcenter" >
-          <div className="columns80">
-            <Link to='/' style={{cursor:'pointer'}}>
-              <div className="blogo"> 
-                <img alt="theleadman logo" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1708076254/IMG_0186-removebg-preview.png" height="50" id="#logo" />
-              </div>  
+      <div className="menu dHide topmost w100" id="mtopmost">
+        <div className="mcolumns  menuContainer vcenter" >
+          <div className="w20">
+            <Link to="/" className="logo">
+              <span className="white">fe</span>
             </Link>
           </div>
-          <div className="columns20 right">
-            <button onClick={toggleMenu} className="mtoggle">{isOpen ? <MdOutlineClose /> : <MdOutlineMenuOpen />} </button>
+          <div className="w60 center">
+            <Link to="" className="white mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
+          </div>
+          <div className="w20 right">
+            <button onClick={toggleMenu} className="mtoggle down">{isOpen ? <MdOutlineClose /> : <MdOutlineMenu />} </button>
           </div>
         </div>
 
-        <div className={`${mmenu} row grid50 vcenter ${isOpen ? open : ''}`} id="mmenuBox">
-          <Link to='/' onClick={closeMenu}>Home</Link>
-          <Link to='/about-us'onClick={closeMenu}>About Us</Link>
-          <Link to='/services'onClick={closeMenu}>Our Services</Link>
-          <Link to='/contact-us'onClick={closeMenu}><button className="menuButton">Help Me Get Better</button></Link>
+        <div className={`${'mmenu'} row grid50 vcenter ${isOpen ? 'open' : ''}`} id="mmenuBox">
+          <Link to='/' className='white' onClick={closeMenu}>Home</Link>
+          <Link to='' className='white' onClick={closeMenu}>About Me</Link>
+          <Link to='/work-experience' className='white' onClick={closeMenu}>work experience</Link>
+          <Link to='/contact-us'onClick={closeMenu}>book a call <MdOutlineArrowOutward className='down rh45' /> </Link>
 
         </div>
       </div>
@@ -85,11 +78,11 @@ window.addEventListener('scroll', () => {
     menu.style.backgroundColor = 'transparent';
     mmenu.style.backgroundColor = 'transparent';
   } else if (verticalScrollPx > 20 && verticalScrollPx < 1000) {
-    menu.style.backgroundColor = '#222222';
-    mmenu.style.backgroundColor = '#222222';
+    menu.style.backgroundColor = '#6A5950';
+    mmenu.style.backgroundColor = '#6A5950';
   } else {
-    menu.style.backgroundColor = '#222222';
-    mmenu.style.backgroundColor = '#222222';
+    menu.style.backgroundColor = '#6A5950';
+    mmenu.style.backgroundColor = '#6A5950';
   }
 });
 
