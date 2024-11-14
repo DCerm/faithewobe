@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Faith from './assets/images/IMG_2463.JPG';
 import Faithvid from './assets/8635168531210152644.mov';
 import Gworkspace from './assets/images/Gworkspace.png';
-import {  MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle } from 'react-icons/md';
-
+import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
+import { FaLinkedin } from 'react-icons/fa'
 function Exp() {  
 
   return (
@@ -135,7 +136,7 @@ function Exp() {
 
 
       <div className="spacer50"></div>
-      <div className="columns pv50 grid100 start border">
+      <div className="columns pv50 grid100 start borderTop">
         <div className="w20 pv20">
           <h4 className="bigText fp cat">Oriflame</h4>
           <li className="mont p10 wt200">Network Marketer</li>
@@ -157,45 +158,34 @@ function Exp() {
       </div>
     </section>
 
-    {/*////PROJECTS                 /PROJECTS /.              /PROJECTS             PROJECTS            */}
+    {/*///////////////////////////////////////CONTACT ME/////////////////////////////////////////////////////////*/}
 
-    <section className="columns creamBg grid10 start ">
-      <div className="w20 darkBg card sticky">
-        <MdOutlineBuildCircle className="bigText creamBg round p10" />
-        <h2 className="pv20 uppercase">Tools</h2>
-
-        <div className=" ">
-          <li className="mont capitalize pv5">Google workspace</li>
-          <li className="mont capitalize pv5">Trello</li>
-          <li className="mont capitalize pv5">Triplt</li>
-          <li className="mont capitalize pv5">Otter Ai</li>
-          <li className="mont capitalize pv5">Time and Date</li>
-          <li className="mont capitalize pv5">Calendly</li>
-          <li className="mont capitalize pv5">MS Excel</li>
-        </div>
+    <div className="columns h100 darkBg" style={{borderTop:"5px solid #6a5950"}}>
+      <div className="w20 creamBg h100 flcenter vcenter flex" >
+      <img className="Faith dHide center" src={Faith} alt="" />
       </div>
+      <div className="w20" ></div>
+      <div className="w60 mcenter" style={{zIndex:"10"}}>
+        <div className="mspacer"></div><div className="mspacer"></div>
+        <h4 className="uppercas bigHeading mcenter">Need reliable remote help?</h4>
+        <p className="w70">I’d love to connect and see how we can
+        collaborate to achieve great things together!</p>
 
-    {/*////PORTFOLIO                 /PORTFOLIO /.              /PORTFOLIO             PORTFOLIO            */}
+        <div className="spacer20 columns grid20 ">
+          <a href="tel:+2349030632789" className="mont" > <MdOutlinePhone className="down rh45" /> +2349030632789 <MdOutlineArrowOutward className="down rh45"/></a>
+          <a href="mailto:ewobefaith@gmail.com" className="mont" > <MdOutlineMail className="down rh5" /> ewobefaith@gmail.com <MdOutlineArrowOutward className="down rh45"/></a>
+          <a href="https://linkedin.com/in/faith-ewobe" className="mont" > <FaLinkedin className="down rh5" /> LinkedIn <MdOutlineArrowOutward className="down rh45"/></a>
+          <a href="" className=" mont">book a call <MdOutlineArrowOutward className="down rh45" /></a>
 
-      <div className="w80  grid10 row">
-        <div className="columns tag darkBg grid10">
-          <MdOutlineStopCircle className="" />
-          <span className="down"> Portfolio</span>
         </div>
-        <h3 className="">Selected Projects</h3>
-        <div className="spacer50 columns grid10 card darkBg w100">
-          <div className="card darkBg w50">
-            <img src={Gworkspace} alt="" className="portImg card" />
-            <h4 className="capitalize">calender and email management</h4>
 
-          </div>
-          <div className="card darkBg w50">
-
-          </div>
-        </div>
+        
+        <div className="mspacer"></div> <div className="mspacer"></div>
       </div>
+    </div>
+    <section className="FaithSection mcenter mHide">
+      <img className="Faith" height="auto" width="300px" src={Faith} alt="" />
     </section>
- 
   </>  
   )  
 }

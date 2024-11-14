@@ -51,6 +51,7 @@
   overflow:hidden;
   border-radius: 10px;
 }
+.serviceBg {margin-top: -450px;}
 video {
   z-index: -100;
 }
@@ -127,13 +128,17 @@ video {
  .videoBg {
   height:200px;
 }
-
+.serviceBg {margin-top: -30px;}
 .vidoverlay {
   margin-top:-200px;
   background:#2c2827cc;
   height:140px;
 }
 
+ /*////portfolio/                 /PORTFOLIO/.              /PORTFOLIO            PORTFOLIO           */
+.portImg {
+  height:auto;
+}
 
   /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */
   .testimonialBox {

@@ -72,7 +72,7 @@ a:hover {color:#0f0; text-decoration:;}
 a:hover .rh45 {transform:rotate(45deg); transition: 0.1s ease-out;}
 a:hover .rh5 {transform:rotate(-5deg); transition: 0.1s ease-out;}
 .bigHeading {
-  font-size: 40px;
+  font-size: 60px;
   padding:20px 0;
   font-family: Catchy Mager;
   font-weight:500;
@@ -233,7 +233,7 @@ a:hover .rh5 {transform:rotate(-5deg); transition: 0.1s ease-out;}
   .w {flex-direction:column;}
   .slider {animation: slide 20s linear infinite;justify-content:flex-start;}
   .bigHeading {
-    font-size:25px;
+    font-size:30px;
     padding:10px 10px;
     font-family: Catchy Mager;
     font-weight:500;

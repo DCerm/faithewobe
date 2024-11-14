@@ -8,7 +8,7 @@ import './assets/css/faith.css';
 import Home from './pages/home.js';
 import Services from './pages/services.js';
 import Exp from './pages/experience.js';
-import ServiceIndex from './pages/servicesIndex.js';
+import Survey from './pages/survey.js';
 import Footer from './footer.js';
 
 function Content() {
@@ -38,8 +38,9 @@ function Content() {
             <Route path="/" element={<Home />} ></Route>
             <Route path="/home" element={<Home />} ></Route>
             <Route path="/work-experience" element={<Exp />} />
-            <Route path="/services" element={<Services />} >
-              <Route index element={<ServiceIndex />} />
+            <Route path="/services" >
+              <Route index element={<Services />} />
+              <Route path="/services/survey-administration-and-analysis" element={<Survey />} />
               
             </Route>
           </Routes>

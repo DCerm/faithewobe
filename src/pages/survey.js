@@ -9,7 +9,8 @@ import gworkspace from './assets/images/Gworkspace.png';
 import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa';
 
-function Services() {  
+
+function Survey() {  
 
   return (
   <>
@@ -18,12 +19,12 @@ function Services() {
 
      <div className="p10">
       <div className="videoBg">
-        <img src={workspace}  width="100%" className="serviceBg" />
+        <img src={gworkspace}  width="100%" className="serviceBg" />
       </div>
 
       <div className="vidoverlay card columns ">
         <div className="w50 padLeft50">
-          <h3 className="f100 mf50">My Services</h3>
+          <h3 className="f100 mf50">Survey + Analytics</h3>
 
         </div>
         
@@ -35,19 +36,18 @@ function Services() {
     <section className="">
       <div className="columns grid100">
         <div className="w40 ">
-          <h3 className="pr20p">Remote help that helps you run smoother</h3>
+          <h3 className="pr20p">Data analysis of Google form response in Google sheets. </h3>
         </div>
 
         <div className="w60">
           
           <p> 
-            My core service offerings are:
+            I created a survey in Google forms and sent it to concerned respondents. The form had eighteen (18) responses.
+            The form data was pulled into Google Sheets, and I created a pie chart that summarized the form responses.
+            The email addresses and location of respondents are redacted for privacy.
           </p>
-          <li className="mont pv5 fp ">Community management</li>
-          <li className="mont pv5 fp">Administrative support</li>
-          <li className="mont pv5 fp">Customer support specialist</li>
-          <div className="spacer20"></div>
-          <Link to="" className=" mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
+          
+          <Link to="" className="mHide dHide mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
         </div>
 
       </div>
@@ -60,59 +60,34 @@ function Services() {
     <div className="row creamBg grid10 card">
       <div className="columns mcolumns tag darkBg grid10">
         <MdOutlineStopCircle className="" />
-        <span className="down"> Portfolio</span>
+        <span className="down"> Screenshots</span>
       </div>
-      <h3 className="">Selected Projects</h3>
+      <h3 className="">Project Gallery</h3>
 
-      <div className="columns spacer50 start mflcenter grid20 mw90">
+      <div className="columns spacer50 start mflcenter grid50 mw90">
         <div className="w20 darkBg card psticky">
           <MdOutlineBuildCircle className="bigText creamBg round p10" />
           <h2 className="pv20 uppercase">Tools</h2>
 
           <div className="">
             <li className="mont capitalize pv5">Google workspace</li>
-            <li className="mont capitalize pv5">Trello</li>
-            <li className="mont capitalize pv5">Triplt</li>
-            <li className="mont capitalize pv5">Otter Ai</li>
-            <li className="mont capitalize pv5">Time and Date</li>
-            <li className="mont capitalize pv5">Calendly</li>
-            <li className="mont capitalize pv5">MS Excel</li>
+            <li className="mont capitalize pv5">Data analysis</li>
+            <li className="mont capitalize pv5">Google forms</li>
           </div>
         </div>
 
         {/*////PORTFOLIO                 /PORTFOLIO /.              /PORTFOLIO             PORTFOLIO            */}
 
-        <div className="row w80 grid10">
+        <div className=" w80">
 
-          <div className="w100 columns grid10">
-            <div className="p20 r10 darkBg w50">
-              <img src={calender} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
-                calender and email management <MdOutlineArrowOutward className="down rh45" /></h4>
-              </Link>
+          <div className="">
+            <div className="p20 r10 darkBg ">
+              <img src={gworkspace} alt="" className="" width="500px" />
             </div>
-            <div className="p20 r10 darkBg w50">
-            <img src={travel} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
-                travel and itinerary planning <MdOutlineArrowOutward className="down rh45" /></h4>
-              </Link>
-            </div>
+            
           </div>
 
-          <div className="w100 columns mflcenter grid10 start">
-            <div className="p20 r10 darkBg w50">
-              <img src={gworkspace} alt="" className="portImg" />
-              <Link to="/services/survey-administration-and-analysis" className="white"><h4 className="capitalize spacer20 bigText ">
-                survey administration and analysis <MdOutlineArrowOutward className="down rh45" /></h4>
-              </Link>
-            </div>
-            <div className="p20 r10 darkBg w50">
-            <img src={minute} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
-                community engagement and minute taking <MdOutlineArrowOutward className="down rh45" /></h4>
-              </Link>
-            </div>
-          </div>
+          
         </div> 
         
       </div>
@@ -152,4 +127,4 @@ function Services() {
   )  
 }
 
-export default Services;
+export default Survey;

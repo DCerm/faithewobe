@@ -7,6 +7,7 @@ import calender from './assets/images/calender.JPG';
 import travel from './assets/images/travel.png';
 import content from './assets/images/content.PNG';
 import minute from './assets/images/minute.PNG';
+import gworkspace from './assets/images/Gworkspace.png';
 import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa'
 
@@ -50,36 +51,45 @@ function Home() {
           offering efficient, reliable remote help that
           improves productivity.
         </p>
+        <p className="spacer50">Outside of work, I’m often crocheting, learning
+          new skills, or reading novels.
+        </p>
         <div className="mspacer"></div>
       </div>
 
       <div className="w20 mw90 card creamBg">
         <MdOutlineStars className="bigText darkBg round p10" />
         <h2 className="pv20 uppercase">Skills</h2>
-          <li className="mont pv5">Administrative support</li>
-          <li className="mont pv5">Data entry</li>
-          <li className="mont pv5">Calendar and schedule <span className=""><br/> &nbsp;&nbsp; &nbsp;</span> management</li>
-          <li className="mont pv5">Time management</li>
-          <li className="mont pv5">Customer service</li>
-          <li className="mont pv5">Social media <span className=""><br/>&nbsp;&nbsp; &nbsp;</span> management</li>
-          <li className="mont pv5">Internet Research</li>
-          <li className="mont pv5">Travel research and <span className=""><br/> &nbsp;&nbsp; &nbsp;</span> bookings</li>
-
-        
+        <li className="mont pv5">Administrative support</li>
+        <li className="mont pv5">Data entry</li>
+        <li className="mont pv5">Calendar and schedule <span className=""><br/> &nbsp;&nbsp; &nbsp;</span> management</li>
+        <li className="mont pv5">Time management</li>
+        <li className="mont pv5">Customer service</li>
+        <li className="mont pv5">Social media <span className=""><br/>&nbsp;&nbsp; &nbsp;</span> management</li>
+        <li className="mont pv5">Internet Research</li>
+        <li className="mont pv5">Travel research and <span className=""><br/> &nbsp;&nbsp; &nbsp;</span> bookings</li>
       </div>
-      <div className="w40" >
-        <div className="spacer100"></div>
-        <p className="spacer100">My goal is to help businesses run smoothly by
-          managing workflows and supporting teams
-          remotely. I enjoy tackling challenges and finding
-          the best solutions for every task.
-        </p>
+      
+      {/*////SERVICES/                 /SERVICES/.              /SERVICES            SERVICES           */}
 
-        <p className="spacer50">Outside of work, I’m often crocheting, learning
-          new skills, or reading novels.
+      <div className="w40 " >
+        <div className="spacer100" />
+        <div className="spacer100" />
+        <div className="spacer20" />
+        <h2 className="uppercase">Services</h2>
+        <div className="spacer20" />
+        <li className="mont pv5 fp ">Community management</li>
+        <li className="mont pv5 fp">Administrative support</li>
+        <li className="mont pv5 fp">Customer support specialist</li>
+
+        <p className="spacer30">My goal is to help businesses run smoothly by
+          managing workflows and supporting teams
+          remotely.
         </p>
       </div>
     </section>
+
+
 
     {/*////VIDEO/                 /VIDEO/.              /VIDEO            VIDEO           */}
 
@@ -168,15 +178,15 @@ function Home() {
 
           <div className="w100 columns mflcenter grid10 start">
             <div className="p20 r10 darkBg w50">
-              <img src={content} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
-                content calender and community engagement <MdOutlineArrowOutward className="down rh45" /></h4>
+              <img src={gworkspace} alt="" className="portImg" />
+              <Link to="/services/survey-administration-and-analysis" className="white"><h4 className="capitalize spacer20 bigText ">
+                survey administration and analysis <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
             <div className="p20 r10 darkBg w50">
             <img src={minute} alt="" className="portImg" />
               <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
-                minute taking and survey administration <MdOutlineArrowOutward className="down rh45" /></h4>
+                community engagement and minute taking <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
           </div>

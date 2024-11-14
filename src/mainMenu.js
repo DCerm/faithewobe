@@ -25,7 +25,7 @@ function MainMenu() {
           <ul className="menuItems columns wt400">
             <Link to=""><li className="menuItem">about me</li></Link>
             <li className="menuseparator down">·</li>
-            <Link to=""><li className="menuItem">services</li></Link>
+            <Link to="/services"><li className="menuItem">services</li></Link>
             <li className="menuseparator down">•</li>
             <Link to="/work-experience"><li className="menuItem">work experience</li></Link>
             <li className="menuseparator down">·</li>
@@ -56,7 +56,8 @@ function MainMenu() {
 
         <div className={`${'mmenu'} row grid50 vcenter ${isOpen ? 'open' : ''}`} id="mmenuBox">
           <Link to='/' className='white' onClick={closeMenu}>Home</Link>
-          <Link to='' className='white' onClick={closeMenu}>About Me</Link>
+          <Link to='/home#about' className='white' onClick={closeMenu}>About Me</Link>
+          <Link to='/services' className='white' onClick={closeMenu}>Services</Link>
           <Link to='/work-experience' className='white' onClick={closeMenu}>work experience</Link>
           <Link to='/contact-us'onClick={closeMenu}>book a call <MdOutlineArrowOutward className='down rh45' /> </Link>
 
