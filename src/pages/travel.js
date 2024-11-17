@@ -6,6 +6,7 @@ import calender from './assets/images/calender.JPG';
 import travel from './assets/images/travel.png';
 import minute from './assets/images/minute.PNG';
 import gworkspace from './assets/images/Gworkspace.png';
+import travelpdf from './assets/Faith Ewobe - Zanzibar Tanzania - 25th May, 2025.pdf';
 import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa';
 
@@ -19,12 +20,12 @@ function Survey() {
 
      <div className="p10">
       <div className="videoBg end flex">
-        <img src={gworkspace}  width="100%" className="serviceBg" />
+        <img src={travel}  width="100%" className="serviceBg" />
       </div>
 
       <div className="vidoverlay card columns ">
         <div className="w50 padLeft50">
-          <h3 className="f100 mf50">Survey + Analytics</h3>
+          <h3 className="f100 mf40">Travel + Itinerary Planning</h3>
 
         </div>
         
@@ -36,15 +37,16 @@ function Survey() {
     <section className="">
       <div className="columns grid100">
         <div className="w40 ">
-          <h3 className="pr20p">Data analysis of Google form responses in Google sheets. </h3>
+          <h3 className="pr20p">Travel itinerary planning and travel arrangement presentation. </h3>
         </div>
 
         <div className="w60">
           
           <p> 
-          I designed a Google Forms survey and distributed it to targeted respondents, receiving 18 responses. 
-          Data was automatically transferred to Google Sheets, where I created a pie chart to visualize the results. 
-          To protect privacy, email addresses and respondent locations were redacted.
+          I designed a custom cover image for the travel arrangement presentation using Adobe Firefly. 
+          The travel itinerary was created and organized in Google Workspace, consolidating all travel 
+          details for easy access. For planning and arrangements, I used TripIt, booked flights through Kayak, 
+          and verified time zone accuracy with Time and Date to ensure smooth travel coordination.
           </p>
           
           <div className="spacer50" />
@@ -73,8 +75,10 @@ function Survey() {
 
           <div className="">
             <li className="mont capitalize pv5">Google workspace</li>
-            <li className="mont capitalize pv5">Data analysis</li>
-            <li className="mont capitalize pv5">Google forms</li>
+            <li className="mont capitalize pv5">Adobe firefly</li>
+            <li className="mont capitalize pv5">Tripit</li>
+            <li className="mont capitalize pv5">Kayak</li>
+            <li className="mont capitalize pv5">Time and Date</li>
           </div>
         </div>
 
@@ -84,7 +88,8 @@ function Survey() {
 
           <div className="mnopad">
             <div className="p20 r10 darkBg mnopad">
-              <img src={gworkspace} alt="" className="fullProjectImg" width="500px" />
+              <img src={travel} alt="" className="fullProjectImg" width="500px" />
+              <a href={travelpdf} className="mont">download slides in pdf <MdOutlineArrowOutward className='down rh45' /></a>
             </div>
             
           </div>

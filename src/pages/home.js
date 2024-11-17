@@ -8,6 +8,8 @@ import travel from './assets/images/travel.png';
 import content from './assets/images/content.PNG';
 import minute from './assets/images/minute.PNG';
 import gworkspace from './assets/images/Gworkspace.png';
+import data from './assets/images/data.png';
+import research from './assets/images/research.PNG';
 import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa'
 
@@ -39,6 +41,42 @@ function Home() {
       <div className="w50 h90 heroRight">
       </div>
     </div>
+
+    <section className="dHide mHide">
+      <div className="columns slider fcenter grid50 flex  row">
+        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720591164/benfik-removebg-preview_kmwd9q.png" alt="client logo"/>
+        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1718744619/Screenshot_2023-10-10_at_04.57.55-removebg-preview_qticfa.png" alt="client logo" />
+        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1705443462/vivaLuxe-logo.webp" alt="client logo" />
+        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594535/finalbionic-01_vrydus.png" alt="client logo" />
+        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594374/Image-PNG-Transparent-Exact-Large_xyiqfd.png" alt="client logo" />
+        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592917/Lasht-n-2900-x-850-px-4_i19kcd.svg" alt="client logo" />
+        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592643/Raven-Gold_logo-removebg-preview-1-e1664598593566_mj6gvx.png" alt="client logo" />
+        {/*repeat for loop*/}
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720591164/benfik-removebg-preview_kmwd9q.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1718744619/Screenshot_2023-10-10_at_04.57.55-removebg-preview_qticfa.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1705443462/vivaLuxe-logo.webp" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594535/finalbionic-01_vrydus.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594374/Image-PNG-Transparent-Exact-Large_xyiqfd.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592917/Lasht-n-2900-x-850-px-4_i19kcd.svg" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592643/Raven-Gold_logo-removebg-preview-1-e1664598593566_mj6gvx.png" alt="client logo" />
+          {/*repeat for loop*/}
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720591164/benfik-removebg-preview_kmwd9q.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1718744619/Screenshot_2023-10-10_at_04.57.55-removebg-preview_qticfa.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1705443462/vivaLuxe-logo.webp" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594535/finalbionic-01_vrydus.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594374/Image-PNG-Transparent-Exact-Large_xyiqfd.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592917/Lasht-n-2900-x-850-px-4_i19kcd.svg" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592643/Raven-Gold_logo-removebg-preview-1-e1664598593566_mj6gvx.png" alt="client logo" />
+        {/*repeat for loop*/}
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720591164/benfik-removebg-preview_kmwd9q.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1718744619/Screenshot_2023-10-10_at_04.57.55-removebg-preview_qticfa.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1705443462/vivaLuxe-logo.webp" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594535/finalbionic-01_vrydus.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594374/Image-PNG-Transparent-Exact-Large_xyiqfd.png" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592917/Lasht-n-2900-x-850-px-4_i19kcd.svg" alt="client logo" />
+        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592643/Raven-Gold_logo-removebg-preview-1-e1664598593566_mj6gvx.png" alt="client logo" />
+      </div> 
+    </section>
 
     {/*////ABOUT/                 /ABOUT/.              /ABOUT            ABOUT           */}
     <section className="columns start grid100" id="#about">
@@ -172,13 +210,13 @@ function Home() {
           <div className="w100 columns grid10">
             <div className="p20 r10 darkBg w50">
               <img src={calender} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
+              <Link to="/services/calender-and-email-management" className="white"><h4 className="capitalize spacer20 bigText ">
                 calender and email management <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
             <div className="p20 r10 darkBg w50">
             <img src={travel} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
+              <Link to="/services/travel-and-itinerary-planning" className="white"><h4 className="capitalize spacer20 bigText ">
                 travel and itinerary planning <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
@@ -193,11 +231,27 @@ function Home() {
             </div>
             <div className="p20 r10 darkBg w50">
             <img src={minute} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
+              <Link to="/services/community-engagement-and-minute-taking" className="white"><h4 className="capitalize spacer20 bigText ">
                 community engagement and minute taking <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
           </div>
+
+          <div className="w100 columns mflcenter grid10 start">
+            <div className="p20 r10 darkBg w50">
+              <img src={research} alt="" className="portImg" />
+              <Link to="/services/data-entry-and-research" className="white"><h4 className="capitalize spacer20 bigText ">
+                data entry and research <MdOutlineArrowOutward className="down rh45" /></h4>
+              </Link>
+            </div>
+            <div className="p20 r10 darkBg w50 hidden">
+              <img src={research} alt="" className="portImg" />
+              <Link to="/services/data-entry-and-research" className="white"><h4 className="capitalize spacer20 bigText ">
+                data entry and research <MdOutlineArrowOutward className="down rh45" /></h4>
+              </Link>
+            </div>
+          </div>
+            
         </div> 
         
       </div>

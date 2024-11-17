@@ -5,7 +5,10 @@ import workspace from './assets/images/workspace.jpg';
 import calender from './assets/images/calender.JPG';
 import travel from './assets/images/travel.png';
 import minute from './assets/images/minute.PNG';
+import email from './assets/images/email.PNG';
 import gworkspace from './assets/images/Gworkspace.png';
+import analytics from './assets/images/analytics.JPG';
+import content from './assets/images/content.PNG';
 import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa';
 
@@ -18,13 +21,13 @@ function Survey() {
      {/*////HERO/                 /HERO/.              /HERO            HERO           */}
 
      <div className="p10">
-      <div className="videoBg end flex">
-        <img src={gworkspace}  width="100%" className="serviceBg" />
+      <div className="videoBg">
+        <img src={minute}  width="100%" className="serviceBg" />
       </div>
 
       <div className="vidoverlay card columns ">
-        <div className="w50 padLeft50">
-          <h3 className="f100 mf50">Survey + Analytics</h3>
+        <div className="w80 padLeft50">
+          <h3 className="f100 mf40">Community Engagement + Minute Taking</h3>
 
         </div>
         
@@ -36,15 +39,35 @@ function Survey() {
     <section className="">
       <div className="columns grid100">
         <div className="w40 ">
-          <h3 className="pr20p">Data analysis of Google form responses in Google sheets. </h3>
+          <h3 className="pr20p">Captured minutes of meetings for documentation </h3>
         </div>
 
         <div className="w60">
           
           <p> 
-          I designed a Google Forms survey and distributed it to targeted respondents, receiving 18 responses. 
-          Data was automatically transferred to Google Sheets, where I created a pie chart to visualize the results. 
-          To protect privacy, email addresses and respondent locations were redacted.
+          Accurately captured meeting minutes using Otter.ai, an AI-powered transcription 
+          tool approved by the client, to streamline documentation and ensure no details 
+          were missed. For clients preferring a manual approach, I also provide direct 
+          transcription and summary, adapting to preferred styles for meeting documentation.
+          </p>
+
+          <div className="spacer50" />
+          
+        </div>
+      </div>
+
+      <div className="spacer50 columns grid100">
+        <div className="w40 ">
+          <h3 className="pr20p">Engaged online community and analyzed engagement metrics </h3>
+        </div>
+
+        <div className="w60">
+          
+          <p> 
+          Managed and engaged with the online community, responding to inquiries and fostering 
+          positive interactions to strengthen brand presence. Using insights from Meta Business 
+          Suite, I analyzed engagement metrics to understand audience behaviour and refine 
+          community strategies, ensuring content resonated with followers and encouraged meaningful engagement.
           </p>
           
           <div className="spacer50" />
@@ -72,24 +95,23 @@ function Survey() {
           <h2 className="pv20 uppercase">Tools</h2>
 
           <div className="">
+          <li className="mont capitalize pv5">Otter AI</li>
             <li className="mont capitalize pv5">Google workspace</li>
-            <li className="mont capitalize pv5">Data analysis</li>
-            <li className="mont capitalize pv5">Google forms</li>
+            <li className="mont capitalize pv5">Meta business suite</li>
           </div>
         </div>
 
         {/*////PORTFOLIO IMG                /PORTFOLIO IMG              /PORTFOLIO  IMG           PORTFOLIO            */}
 
         <div className=" w80 mnopad">
-
           <div className="mnopad">
             <div className="p20 r10 darkBg mnopad">
-              <img src={gworkspace} alt="" className="fullProjectImg" width="500px" />
+              <img src={minute} alt="" className="fullProjectImg" width="500px" />
+              <div className='spacer10' />
+              <img src={content} alt="" className="fullProjectImg" width="500px" />
+              <img src={analytics} alt="" className="fullProjectImg" width="500px" />
             </div>
-            
-          </div>
-
-          
+          </div>          
         </div> 
         
       </div>

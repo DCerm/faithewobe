@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Faith from './assets/images/IMG_2463.JPG';
+import research from './assets/images/research.PNG';
 import workspace from './assets/images/workspace.jpg';
 import calender from './assets/images/calender.JPG';
 import travel from './assets/images/travel.png';
@@ -19,12 +20,12 @@ function Survey() {
 
      <div className="p10">
       <div className="videoBg end flex">
-        <img src={gworkspace}  width="100%" className="serviceBg" />
+        <img src={research}  width="100%" className="serviceBg" />
       </div>
 
       <div className="vidoverlay card columns ">
         <div className="w50 padLeft50">
-          <h3 className="f100 mf50">Survey + Analytics</h3>
+          <h3 className="f100 mf50">Data Entry + Research</h3>
 
         </div>
         
@@ -36,15 +37,15 @@ function Survey() {
     <section className="">
       <div className="columns grid100">
         <div className="w40 ">
-          <h3 className="pr20p">Data analysis of Google form responses in Google sheets. </h3>
+          <h3 className="pr20p">Research, data entry and data representation on chart. </h3>
         </div>
 
         <div className="w60">
           
           <p> 
-          I designed a Google Forms survey and distributed it to targeted respondents, receiving 18 responses. 
-          Data was automatically transferred to Google Sheets, where I created a pie chart to visualize the results. 
-          To protect privacy, email addresses and respondent locations were redacted.
+          Researched various parks and cities in California, focusing on the top 10 by area (square miles). 
+          Entered the data into Google Sheets to facilitate clear communication and analysis. To enhance data 
+          visualization, I created a bar chart with 3D visuals, providing an intuitive representation of the information.
           </p>
           
           <div className="spacer50" />
@@ -73,8 +74,9 @@ function Survey() {
 
           <div className="">
             <li className="mont capitalize pv5">Google workspace</li>
-            <li className="mont capitalize pv5">Data analysis</li>
-            <li className="mont capitalize pv5">Google forms</li>
+            <li className="mont capitalize pv5">internet research</li>
+            <li className="mont capitalize pv5">data entry</li>
+            <li className="mont capitalize pv5">3D visuals</li>
           </div>
         </div>
 
@@ -84,7 +86,7 @@ function Survey() {
 
           <div className="mnopad">
             <div className="p20 r10 darkBg mnopad">
-              <img src={gworkspace} alt="" className="fullProjectImg" width="500px" />
+              <img src={research} alt="" className="fullProjectImg" width="500px" />
             </div>
             
           </div>

@@ -9,6 +9,10 @@ import Home from './pages/home.js';
 import Services from './pages/services.js';
 import Exp from './pages/experience.js';
 import Survey from './pages/survey.js';
+import Calendar from './pages/calender&email.js';
+import Travel from './pages/travel.js';
+import Community from './pages/community.js';
+import Data from './pages/data.js';
 import Footer from './footer.js';
 
 function Content() {
@@ -41,7 +45,10 @@ function Content() {
             <Route path="/services" >
               <Route index element={<Services />} />
               <Route path="/services/survey-administration-and-analysis" element={<Survey />} />
-              
+              <Route path="/services/calender-and-email-management" element={<Calendar />} />
+              <Route path="/services/travel-and-itinerary-planning" element={<Travel />} />
+              <Route path="/services/community-engagement-and-minute-taking" element={<Community />} />
+              <Route path="/services/data-entry-and-research" element={<Data />} />
             </Route>
           </Routes>
                             

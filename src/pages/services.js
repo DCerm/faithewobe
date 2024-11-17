@@ -6,6 +6,7 @@ import calender from './assets/images/calender.JPG';
 import travel from './assets/images/travel.png';
 import minute from './assets/images/minute.PNG';
 import gworkspace from './assets/images/Gworkspace.png';
+import research from './assets/images/research.PNG';
 import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa';
 
@@ -17,7 +18,7 @@ function Services() {
      {/*////HERO/                 /HERO/.              /HERO            HERO           */}
 
      <div className="p10">
-      <div className="videoBg">
+      <div className="videoBg flex end">
         <img src={workspace}  width="100%" className="serviceBg" />
       </div>
 
@@ -87,13 +88,13 @@ function Services() {
           <div className="w100 columns grid10">
             <div className="p20 r10 darkBg w50">
               <img src={calender} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
+              <Link to="/services/calender-and-email-management" className="white"><h4 className="capitalize spacer20 bigText ">
                 calender and email management <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
             <div className="p20 r10 darkBg w50">
             <img src={travel} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
+              <Link to="/services/travel-and-itinerary-planning" className="white"><h4 className="capitalize spacer20 bigText ">
                 travel and itinerary planning <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
@@ -108,8 +109,23 @@ function Services() {
             </div>
             <div className="p20 r10 darkBg w50">
             <img src={minute} alt="" className="portImg" />
-              <Link to="" className="white"><h4 className="capitalize spacer20 bigText ">
+              <Link to="/services/community-engagement-and-minute-taking" className="white"><h4 className="capitalize spacer20 bigText ">
                 community engagement and minute taking <MdOutlineArrowOutward className="down rh45" /></h4>
+              </Link>
+            </div>
+          </div>
+
+          <div className="w100 columns mflcenter grid10 start">
+            <div className="p20 r10 darkBg w50">
+              <img src={research} alt="" className="portImg" />
+              <Link to="/services/data-entry-and-research" className="white"><h4 className="capitalize spacer20 bigText ">
+                data entry and research <MdOutlineArrowOutward className="down rh45" /></h4>
+              </Link>
+            </div>
+            <div className="p20 r10 darkBg w50 hidden">
+              <img src={research} alt="" className="portImg" />
+              <Link to="/services/data-entry-and-research" className="white"><h4 className="capitalize spacer20 bigText ">
+                data entry and research <MdOutlineArrowOutward className="down rh45" /></h4>
               </Link>
             </div>
           </div>

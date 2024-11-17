@@ -5,6 +5,7 @@ import workspace from './assets/images/workspace.jpg';
 import calender from './assets/images/calender.JPG';
 import travel from './assets/images/travel.png';
 import minute from './assets/images/minute.PNG';
+import email from './assets/images/email.PNG';
 import gworkspace from './assets/images/Gworkspace.png';
 import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa';
@@ -18,13 +19,13 @@ function Survey() {
      {/*////HERO/                 /HERO/.              /HERO            HERO           */}
 
      <div className="p10">
-      <div className="videoBg end flex">
-        <img src={gworkspace}  width="100%" className="serviceBg" />
+      <div className="videoBg">
+        <img src={calender}  width="100%" className="serviceBg" />
       </div>
 
       <div className="vidoverlay card columns ">
-        <div className="w50 padLeft50">
-          <h3 className="f100 mf50">Survey + Analytics</h3>
+        <div className="w70 padLeft50">
+          <h3 className="f100 mf40">Calendar + Email Management</h3>
 
         </div>
         
@@ -36,15 +37,34 @@ function Survey() {
     <section className="">
       <div className="columns grid100">
         <div className="w40 ">
-          <h3 className="pr20p">Data analysis of Google form responses in Google sheets. </h3>
+          <h3 className="pr20p">Scheduling and automated reminders in Google calendar </h3>
         </div>
 
         <div className="w60">
           
           <p> 
-          I designed a Google Forms survey and distributed it to targeted respondents, receiving 18 responses. 
-          Data was automatically transferred to Google Sheets, where I created a pie chart to visualize the results. 
-          To protect privacy, email addresses and respondent locations were redacted.
+          I managed scheduling and communication using Google Calendar, organizing meetings and 
+          setting reminders to ensure timely follow-ups. I integrated Google Meet into calendar 
+          events as requested, providing seamless access for virtual meetings. Various reminders 
+          were set within Google Calendar to accurately manage and prioritize the client’s schedule.
+          </p>
+
+          <div className="spacer50" />
+          
+        </div>
+      </div>
+
+      <div className="spacer50 columns grid100">
+        <div className="w40 ">
+          <h3 className="pr20p">Email sorting and priotization in Gmail </h3>
+        </div>
+
+        <div className="w60">
+          
+          <p> 
+          I organized and managed email communications using Gmail. This included sorting, prioritizing, and responding 
+          to emails efficiently to maintain clear and timely communication. I also scheduled follow-ups and flagged 
+          important emails to streamline team coordination and ensure no critical messages were missed.
           </p>
           
           <div className="spacer50" />
@@ -73,23 +93,20 @@ function Survey() {
 
           <div className="">
             <li className="mont capitalize pv5">Google workspace</li>
-            <li className="mont capitalize pv5">Data analysis</li>
-            <li className="mont capitalize pv5">Google forms</li>
+            <li className="mont capitalize pv5">customer service</li>
           </div>
         </div>
 
         {/*////PORTFOLIO IMG                /PORTFOLIO IMG              /PORTFOLIO  IMG           PORTFOLIO            */}
 
         <div className=" w80 mnopad">
-
           <div className="mnopad">
             <div className="p20 r10 darkBg mnopad">
-              <img src={gworkspace} alt="" className="fullProjectImg" width="500px" />
+              <img src={calender} alt="" className="fullProjectImg" width="500px" />
+              <div className='spacer10' />
+              <img src={email} alt="" className="fullProjectImg" width="500px" />
             </div>
-            
-          </div>
-
-          
+          </div>          
         </div> 
         
       </div>

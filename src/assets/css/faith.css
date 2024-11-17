@@ -256,6 +256,8 @@ a:hover .rh5 {transform:rotate(-5deg); transition: 0.1s ease-out;}
     line-height:30px;
   }
   .mf50 {font-size:50px}
+  .mf40 {font-size:40px}
+
   .scrollingTextBg {
     font-size:70px; 
     margin-bottom: -60px;
