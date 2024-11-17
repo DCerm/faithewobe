@@ -1,15 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Faith from './assets/images/IMG_2463.JPG';
-import workspace from './assets/images/workspace.jpg';
-import calender from './assets/images/calender.JPG';
-import travel from './assets/images/travel.png';
 import minute from './assets/images/minute.PNG';
-import email from './assets/images/email.PNG';
-import gworkspace from './assets/images/Gworkspace.png';
 import analytics from './assets/images/analytics.JPG';
-import content from './assets/images/content.PNG';
-import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
+import { MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle,  MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa';
 
 
@@ -108,7 +102,6 @@ function Survey() {
             <div className="p20 r10 darkBg mnopad">
               <img src={minute} alt="" className="fullProjectImg" width="500px" />
               <div className='spacer10' />
-              <img src={content} alt="" className="fullProjectImg" width="500px" />
               <img src={analytics} alt="" className="fullProjectImg" width="500px" />
             </div>
           </div>          
