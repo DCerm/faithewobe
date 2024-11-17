@@ -13,8 +13,8 @@ function Footer() {
             <Link to="/services"><li className="menuItem">services</li></Link>
             <li className="menuseparator down">•</li>
             <Link to="/work-experience"><li className="menuItem">work experience</li></Link>
-            <li className="menuseparator down">·</li>
-            <Link to=""><li className="menuItem">education</li></Link>
+            <li className="menuseparator down mHide dHide">·</li>
+            <Link to=""><li className="menuItem mHide dHide">education</li></Link>
             </ul>
          </div>
 
