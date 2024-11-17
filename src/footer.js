@@ -8,9 +8,9 @@ function Footer() {
       <div className="creamBg topmost columns menuContainer spaceBetween">
          <div className="w70 columns mHide">
             <ul className="menuItems columns wt400">
-            <Link to=""><li className="menuItem">about me</li></Link>
+            <Link to="/home#about"><li className="menuItem">about me</li></Link>
             <li className="menuseparator down">·</li>
-            <Link to=""><li className="menuItem">services</li></Link>
+            <Link to="/services"><li className="menuItem">services</li></Link>
             <li className="menuseparator down">•</li>
             <Link to="/work-experience"><li className="menuItem">work experience</li></Link>
             <li className="menuseparator down">·</li>

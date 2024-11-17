@@ -34,7 +34,7 @@ function MainMenu() {
         </div>
 
         <div className=" right">
-          <Link to="" className="white mont wt500 columns grid10"><span>book a call </span><MdOutlineArrowOutward className="bigText wt100 rh45"/></Link>
+          <Link to="https://calendly.com/ewobefaith/consultation" className="white mont wt500 columns grid10"><span>book a call </span><MdOutlineArrowOutward className="bigText wt100 rh45"/></Link>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ function MainMenu() {
             </Link>
           </div>
           <div className="w60 center">
-            <Link to="" className="white mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
+            <Link to="https://calendly.com/ewobefaith/consultation" className="white mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
           </div>
           <div className="w20 right">
             <button onClick={toggleMenu} className="mtoggle down">{isOpen ? <MdOutlineClose /> : <MdOutlineMenu />} </button>
@@ -59,7 +59,7 @@ function MainMenu() {
           <Link to='/home#about' className='white' onClick={closeMenu}>About Me</Link>
           <Link to='/services' className='white' onClick={closeMenu}>Services</Link>
           <Link to='/work-experience' className='white' onClick={closeMenu}>work experience</Link>
-          <Link to='/contact-us'onClick={closeMenu}>book a call <MdOutlineArrowOutward className='down rh45' /> </Link>
+          <Link to='https://calendly.com/ewobefaith/consultation'onClick={closeMenu}>book a call <MdOutlineArrowOutward className='down rh45' /> </Link>
 
         </div>
       </div>

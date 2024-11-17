@@ -47,7 +47,7 @@ function Survey() {
             The email addresses and location of respondents are redacted for privacy.
           </p>
           
-          <Link to="" className="mHide dHide mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
+          <Link to="https://calendly.com/ewobefaith/consultation" className="mHide dHide mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
         </div>
 
       </div>
@@ -76,13 +76,13 @@ function Survey() {
           </div>
         </div>
 
-        {/*////PORTFOLIO                 /PORTFOLIO /.              /PORTFOLIO             PORTFOLIO            */}
+        {/*////PORTFOLIO IMG                /PORTFOLIO IMG              /PORTFOLIO  IMG           PORTFOLIO            */}
 
         <div className=" w80">
 
           <div className="">
             <div className="p20 r10 darkBg ">
-              <img src={gworkspace} alt="" className="" width="500px" />
+              <img src={gworkspace} alt="" className="fullProjectImg" width="500px" />
             </div>
             
           </div>
@@ -112,7 +112,7 @@ function Survey() {
           <a href="tel:+2349030632789" className="mont" > <MdOutlinePhone className="down rh45" /> +2349030632789 <MdOutlineArrowOutward className="down rh45"/></a>
           <a href="mailto:ewobefaith@gmail.com" className="mont" > <MdOutlineMail className="down rh5" /> ewobefaith@gmail.com <MdOutlineArrowOutward className="down rh45"/></a>
           <a href="https://linkedin.com/in/faith-ewobe" className="mont" > <FaLinkedin className="down rh5" /> LinkedIn <MdOutlineArrowOutward className="down rh45"/></a>
-          <a href="" className=" mont">book a call <MdOutlineArrowOutward className="down rh45" /></a>
+          <a href="https://calendly.com/ewobefaith/consultation" className=" mont">book a call <MdOutlineArrowOutward className="down rh45" /></a>
 
         </div>
 

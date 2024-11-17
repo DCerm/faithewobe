@@ -69,6 +69,10 @@ video {
   width:100%;
   height:200px;
 }
+.fullProjectImg {
+  width: 850px;
+  
+}
 
 /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */
 .testimonialBox {

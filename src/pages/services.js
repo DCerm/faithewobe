@@ -47,7 +47,7 @@ function Services() {
           <li className="mont pv5 fp">Administrative support</li>
           <li className="mont pv5 fp">Customer support specialist</li>
           <div className="spacer20"></div>
-          <Link to="" className=" mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
+          <Link to="https://calendly.com/ewobefaith/consultation" className=" mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
         </div>
 
       </div>
@@ -137,7 +137,7 @@ function Services() {
           <a href="tel:+2349030632789" className="mont" > <MdOutlinePhone className="down rh45" /> +2349030632789 <MdOutlineArrowOutward className="down rh45"/></a>
           <a href="mailto:ewobefaith@gmail.com" className="mont" > <MdOutlineMail className="down rh5" /> ewobefaith@gmail.com <MdOutlineArrowOutward className="down rh45"/></a>
           <a href="https://linkedin.com/in/faith-ewobe" className="mont" > <FaLinkedin className="down rh5" /> LinkedIn <MdOutlineArrowOutward className="down rh45"/></a>
-          <a href="" className=" mont">book a call <MdOutlineArrowOutward className="down rh45" /></a>
+          <a href="https://calendly.com/ewobefaith/consultation" className=" mont">book a call <MdOutlineArrowOutward className="down rh45" /></a>
 
         </div>
 

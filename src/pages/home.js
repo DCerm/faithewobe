@@ -61,13 +61,16 @@ function Home() {
         <MdOutlineStars className="bigText darkBg round p10" />
         <h2 className="pv20 uppercase">Skills</h2>
         <li className="mont pv5">Administrative support</li>
-        <li className="mont pv5">Data entry</li>
+        <li className="mont pv5">Data entry </li>
         <li className="mont pv5">Calendar and schedule <span className=""><br/> &nbsp;&nbsp; &nbsp;</span> management</li>
         <li className="mont pv5">Time management</li>
         <li className="mont pv5">Customer service</li>
-        <li className="mont pv5">Social media <span className=""><br/>&nbsp;&nbsp; &nbsp;</span> management</li>
+        <li className="mont pv5">Invoicing and basic <span className=""><br/>&nbsp;&nbsp; &nbsp;</span> book keeping</li>
         <li className="mont pv5">Internet Research</li>
         <li className="mont pv5">Travel research and <span className=""><br/> &nbsp;&nbsp; &nbsp;</span> bookings</li>
+        <li className="mont pv5">File management and <span className=""><br/> &nbsp;&nbsp; &nbsp;</span> organisation</li>
+        <li className="mont pv5">Email management<span className=""><br/> &nbsp;&nbsp; &nbsp;</span> and communications</li>
+
       </div>
       
       {/*////SERVICES/                 /SERVICES/.              /SERVICES            SERVICES           */}
@@ -75,7 +78,7 @@ function Home() {
       <div className="w40 " >
         <div className="spacer100" />
         <div className="spacer100" />
-        <div className="spacer20" />
+        <div className="spacer100" />
         <h2 className="uppercase">Services</h2>
         <div className="spacer20" />
         <li className="mont pv5 fp ">Community management</li>
@@ -125,7 +128,7 @@ function Home() {
             enhance customer satisfaction.
           </p>
           <div className="spacer20 columns grid50 start">
-            <Link to="" className=" mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
+            <Link to="https://calendly.com/ewobefaith/consultation" className=" mont fp">book a call <MdOutlineArrowOutward className="down rh45" /></Link>
             <Link to="/work-experience" className=" mont fp">view all experiences <MdOutlineArrowOutward className="down rh45" /></Link>
           </div>
         </div>
@@ -149,11 +152,16 @@ function Home() {
           <div className="">
             <li className="mont capitalize pv5">Google workspace</li>
             <li className="mont capitalize pv5">Trello</li>
+            <li className="mont capitalize pv5">Asana</li>
+            <li className="mont capitalize pv5">Canva</li>
+            <li className="mont capitalize pv5">Zoom</li>
             <li className="mont capitalize pv5">Triplt</li>
             <li className="mont capitalize pv5">Otter Ai</li>
             <li className="mont capitalize pv5">Time and Date</li>
             <li className="mont capitalize pv5">Calendly</li>
-            <li className="mont capitalize pv5">MS Excel</li>
+            <li className="mont capitalize pv5">Microsoft Office</li>
+            <li className="mont capitalize pv5">Kayak</li>
+            <li className="mont capitalize pv5">Wandelog</li>
           </div>
         </div>
 
@@ -248,7 +256,7 @@ function Home() {
           <a href="tel:+2349030632789" className="mont" > <MdOutlinePhone className="down rh45" /> +2349030632789 <MdOutlineArrowOutward className="down rh45"/></a>
           <a href="mailto:ewobefaith@gmail.com" className="mont" > <MdOutlineMail className="down rh5" /> ewobefaith@gmail.com <MdOutlineArrowOutward className="down rh45"/></a>
           <a href="https://linkedin.com/in/faith-ewobe" className="mont" > <FaLinkedin className="down rh5" /> LinkedIn <MdOutlineArrowOutward className="down rh45"/></a>
-          <a href="" className=" mont">book a call <MdOutlineArrowOutward className="down rh45" /></a>
+          <a href="https://calendly.com/ewobefaith/consultation" className=" mont">book a call <MdOutlineArrowOutward className="down rh45" /></a>
 
         </div>
 
