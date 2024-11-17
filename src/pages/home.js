@@ -5,13 +5,25 @@ import Faith from './assets/images/IMG_2463.JPG';
 import Faithvid from './assets/8635168531210152644.mov';
 import calender from './assets/images/calender.JPG';
 import travel from './assets/images/travel.png';
-import content from './assets/images/content.PNG';
 import minute from './assets/images/minute.PNG';
 import gworkspace from './assets/images/Gworkspace.png';
-import data from './assets/images/data.png';
 import research from './assets/images/research.PNG';
 import { MdOutlineArrowDownward, MdOutlineArrowOutward, MdOutlineBuildCircle, MdOutlineStopCircle, MdOutlineStars, MdOutlineMilitaryTech, MdOutlinePhone, MdOutlineMail } from 'react-icons/md';
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa';
+import office from './assets/images/IMG_2572 Background Removed.png';
+import canva from './assets/images/IMG_2575 Background Removed.png';
+import asana from './assets/images/IMG_2577 Background Removed.png';
+import adobe from './assets/images/IMG_2585 Background Removed.png';
+import calendly from './assets/images/IMG_2579-removebg-preview.png';
+import kayak from './assets/images/IMG_2581 Background Removed.png';
+import zoom from './assets/images/IMG_2578-removebg-preview.png';
+import trello from './assets/images/IMG_2576-removebg-preview.png';
+import workspace from './assets/images/IMG_2573-removebg-preview.png';
+import wanderlog from './assets/images/IMG_2583-removebg-preview.png';
+import otter from './assets/images/IMG_2584-removebg-preview.png';
+
+
+
 
 function Home() {  
 
@@ -42,41 +54,6 @@ function Home() {
       </div>
     </div>
 
-    <section className="dHide mHide">
-      <div className="columns slider fcenter grid50 flex  row">
-        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720591164/benfik-removebg-preview_kmwd9q.png" alt="client logo"/>
-        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1718744619/Screenshot_2023-10-10_at_04.57.55-removebg-preview_qticfa.png" alt="client logo" />
-        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1705443462/vivaLuxe-logo.webp" alt="client logo" />
-        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594535/finalbionic-01_vrydus.png" alt="client logo" />
-        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594374/Image-PNG-Transparent-Exact-Large_xyiqfd.png" alt="client logo" />
-        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592917/Lasht-n-2900-x-850-px-4_i19kcd.svg" alt="client logo" />
-        <img loading="lazy" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592643/Raven-Gold_logo-removebg-preview-1-e1664598593566_mj6gvx.png" alt="client logo" />
-        {/*repeat for loop*/}
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720591164/benfik-removebg-preview_kmwd9q.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1718744619/Screenshot_2023-10-10_at_04.57.55-removebg-preview_qticfa.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1705443462/vivaLuxe-logo.webp" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594535/finalbionic-01_vrydus.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594374/Image-PNG-Transparent-Exact-Large_xyiqfd.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592917/Lasht-n-2900-x-850-px-4_i19kcd.svg" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592643/Raven-Gold_logo-removebg-preview-1-e1664598593566_mj6gvx.png" alt="client logo" />
-          {/*repeat for loop*/}
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720591164/benfik-removebg-preview_kmwd9q.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1718744619/Screenshot_2023-10-10_at_04.57.55-removebg-preview_qticfa.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1705443462/vivaLuxe-logo.webp" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594535/finalbionic-01_vrydus.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594374/Image-PNG-Transparent-Exact-Large_xyiqfd.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592917/Lasht-n-2900-x-850-px-4_i19kcd.svg" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592643/Raven-Gold_logo-removebg-preview-1-e1664598593566_mj6gvx.png" alt="client logo" />
-        {/*repeat for loop*/}
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720591164/benfik-removebg-preview_kmwd9q.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1718744619/Screenshot_2023-10-10_at_04.57.55-removebg-preview_qticfa.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1705443462/vivaLuxe-logo.webp" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594535/finalbionic-01_vrydus.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720594374/Image-PNG-Transparent-Exact-Large_xyiqfd.png" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592917/Lasht-n-2900-x-850-px-4_i19kcd.svg" alt="client logo" />
-        <img loading="lazy" className="mHide" src="https://res.cloudinary.com/dzfqshhzu/image/upload/v1720592643/Raven-Gold_logo-removebg-preview-1-e1664598593566_mj6gvx.png" alt="client logo" />
-      </div> 
-    </section>
 
     {/*////ABOUT/                 /ABOUT/.              /ABOUT            ABOUT           */}
     <section className="columns start grid100" id="#about">
@@ -130,7 +107,24 @@ function Home() {
       </div>
     </section>
 
+    {/*////TOOLS/                 /TOOLS/.              /TOOLS            TOOLS           */}
 
+    <section className="pt0">
+      <h2 className="pv20 uppercase">tools <span className="dHide" style={{letterSpacing:"0"}} > &nbsp; —————> </span></h2>
+      <div className="columns mcolumns slider fcenter grid50 ">
+        <img src={office} alt="microsoft office" className="toolsImg" />
+        <img src={canva} alt="canva" className="toolsImg" />
+        <img src={asana} alt="asana" className="toolsImg" />
+        <img src={adobe} alt="adobe" className="toolsImg" />
+        <img src={calendly} alt="calendly" className="toolsImg" />
+        <img src={kayak} alt="kayak" className="toolsImg" />
+        <img src={zoom} alt="zoom" className="toolsImg" />
+        <img src={trello} alt="trello" className="toolsImg" />
+        <img src={workspace} alt="Google workspace" className="toolsImg" />
+        <img src={wanderlog} alt="wanderlog" className="toolsImg" />
+        <img src={otter} alt="otter" className="toolsImg" />
+      </div>
+    </section>
 
     {/*////VIDEO/                 /VIDEO/.              /VIDEO            VIDEO           */}
 

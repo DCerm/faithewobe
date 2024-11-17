@@ -43,7 +43,9 @@
   font-size:17px;
   line-height:25px;
 }
-
+.toolsImg {
+  width: 70px;
+}
   /*////VIDEO/                 /VIDEO/.              /VIDEO            VIDEO           */
 .videoBg {
   width:100%;
@@ -125,7 +127,10 @@
 
   /*ABOUT.            ABOUT                ABOUT                    ABOUT           */
   .card {padding:30px 20px; border-radius: 10px;}
-
+  .toolsImg {
+    width: 50px;
+  }
+  .slider {overflow-y: scroll;}
   /*////VIDEO/                 /VIDEO/.              /VIDEO            VIDEO           */
   .videoBg {
     height:200px;
