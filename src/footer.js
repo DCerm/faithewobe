@@ -8,7 +8,7 @@ function Footer() {
       <div className="creamBg topmost columns menuContainer spaceBetween">
          <div className="w70 columns mHide">
             <ul className="menuItems columns wt400">
-            <Link to="/home#about"><li className="menuItem">about me</li></Link>
+            <a href="#about"><li className="menuItem">about me</li></a>
             <li className="menuseparator down">·</li>
             <Link to="/services"><li className="menuItem">services</li></Link>
             <li className="menuseparator down">•</li>

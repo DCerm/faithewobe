@@ -56,7 +56,7 @@ function Home() {
 
 
     {/*////ABOUT/                 /ABOUT/.              /ABOUT            ABOUT           */}
-    <section className="columns start grid100" id="#about">
+    <section className="columns start grid100" id="about">
       <div className="w40">
         <h2 className="uppercase">About Me</h2>
         <p className="mspacer">I’m a virtual assistant who thrives on organization
